@@ -22,4 +22,9 @@ public class OutputView {
         }
         return hyphens.toString();
     }
+
+    public void printWinners(List<String> winners) {
+        String winnerNames = String.join(", ", winners);
+        System.out.println("최종 우승자 : " + winnerNames);
+    }
 }
