@@ -20,4 +20,12 @@ public class Car {
             this.position++;
         }
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getPosition() {
+        return position;
+    }
 }
